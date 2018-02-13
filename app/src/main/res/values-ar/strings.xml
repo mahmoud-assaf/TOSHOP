@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">قائمة تسوقى</string>
+    <string name="opened">OPENED</string>
+    <string name="closed">CLOSED</string>
+    <string name="facebook_app_id">383185495420307</string>
+    <string name="fb_login_protocol_scheme">fb383185495420307</string>
+    <string name="title_activity_map">موقع المحل</string>
+    <string name="welcome">مرحبا</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="about_us">عن التطبيق</string>
+    <string name="shopping_list">قائمة التسوق</string>
+    <string name="stores">المحلات</string>
+    <string name="reminders">التنبيهات</string>
+
+    <string name="aboutus">عن التطبيق</string>
+
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="no_stores_toast">لم تقم باضافة اى محلات بعد .. اضف واحدا</string>
+    <string name="add_item">أضافة صنف</string>
+    <string name="save">حفظ</string>
+    <string name="shop_name_error">اختر محلا اولا</string>
+    <string name="item_name_error">ادخل اسم الصنف</string>
+    <string name="item_quantity_error">ادخل الكمية</string>
+    <string name="item_saved_success">تم الحفظ بنجاح</string>
+    <string name="item_add_success">تمت الاضافة بنجاح</string>
+    <string name="ok_btn">موافق</string>
+    <string name="reminder_dialog">اختر تاريخ ووقت التنبيه</string>
+    <string name="done">تم</string>
+    <string name="cancel_btn">الغاء</string>
+    <string name="which_shop">اى محل ؟</string>
+    <string name="which_category">اى تصنيف ؟</string>
+    <string name="cat1">تصنيف 1</string>
+    <string name="cat2">تصنيف 2</string>
+    <string name="cat3">تصنيف 3</string>
+    <string name="add_shop">اضافة محل</string>
+    <string name="shop_nameerror">ادخل اسم المحل</string>
+    <string name="shop_address_error">عنوان المحل</string>
+
+    <string name="email_error">ادخل بريدا صالحا</string>
+    <string name="check_ur_mail">تفحص بريدك لاستكمال الخطوات</string>
+    <string name="check_mail_error">حدث خطأ اثناء الاتصال</string>
+    <string name="something_wrong">حدث خطأ اثناء الاتصال</string>
+    <string name="auth_error">خطأ فى التوثيق</string>
+    <string name="password_error">كلمة السر من 8 &#8211; 20 حرف </string>
+    <string name="permissions_denied">تم رفض الاذونات</string>
+    <string name="reminder_deleted">تم حذف التنبيه</string>
+    <string name="settings">الاعدادات</string>
+    <string name="not_reminding">بدون تنبيه</string>
+    <string name="ok_btnn">موافق</string>
+
+    <string name="password_match_error">كلمتا السر غير متطابقتين</string>
+    <string name="about_us_info">  عن التطبيق عن التطبيق عن التطبيق</string>
+    <string name="shop_name_hint">اسم المحل</string>
+    <string name="item_name_hint">اسم الصنف</string>
+    <string name="quantity_hint">الكمية</string>
+    <string name="category_hint">التصنيف</string>
+    <string name="date_hint">وقت التنبيه</string>
+    <string name="notes_hint">ملاحظات</string>
+    <string name="add_button">اضافة</string>
+    <string name="cancel_button">الغاء</string>
+    <string name="remind_me_at">تنبيه فى :</string>
+    <string name="enter_shop_name_hint">اسم المحل</string>
+    <string name="enter_shop_location_hint">عنوان المحل</string>
+    <string name="get_location_on_map_hint">تحديد الموقع على الخريطة</string>
+    <string name="reset_password_hint">اعادة تعيين كلمة السر</string>
+    <string name="enter_your_e_mail_hint">ادخل بريدك الالكتروني</string>
+    <string name="or">أو</string>
+    <string name="e_mail">البريد الالكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="forgot_password">نسيت كلمة المرور ؟ </string>
+    <string name="dont_have_account">ليس لديك حساب ؟</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="skip">تخطي</string>
+    <string name="all_rights">جميع الحقوق محفوظ ل أبس سكوير</string>
+    <string name="create_account">انشئ الحساب</string>
+    <string name="confirm_your_password_hint">تأكيد كلمة المرور</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
+    <string name="from_shop">من محل :</string>
+    <string name="shop_name">المحل </string>
+    <string name="will_be_reminded_at">تنبيه فى : </string>
+    <string name="item_notes">ملاحظات</string>
+    <string name="item_name">اسم الصنف</string>
+    <string name="item_got">تم شراء الصنف</string>
+    <string name="item_not_found">الصنف غير متواجد</string>
+    <string name="delete_reminder">الغاء التنبيه</string>
+    <string name="quantity_label">الكمية ||</string>
+    <string name="notreminding">بدون تنبيه</string>
+    <string name="settings_change">سوف يتم تطبيق التغييرات عند تشغيل التطبيق المرة القادمة</string>
+    <string name="language">اللغة : </string>
+    <string name="save_settings">حفظ</string>
+    <string name="signup_first">يتعين عليك التسجيل أولا</string>
+    <string name="reminder_notification">لا تنسي اصنافك :)</string>
+</resources>

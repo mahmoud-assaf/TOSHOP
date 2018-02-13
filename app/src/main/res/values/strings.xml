@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">My Shopping List</string>
+    <string name="opened">OPENED</string>
+    <string name="closed">CLOSED</string>
+    <string name="facebook_app_id">383185495420307</string>
+    <string name="fb_login_protocol_scheme">fb383185495420307</string>
+    <string name="title_activity_map">Shop Location</string>
+    <string name="welcome">Welcome</string>
+
+
+
+    <string name="about_us">About Us</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="stores">Stores</string>
+    <string name="reminders">Reminders</string>
+
+    <string name="aboutus">About Us</string>
+
+    <string name="log_out">Log out</string>
+    <string name="no_stores_toast">You dont have stores yet Add store</string>
+    <string name="add_item">Add Item</string>
+    <string name="save">Save</string>
+    <string name="shop_name_error">choose store first</string>
+    <string name="item_name_error">Enter item name</string>
+    <string name="item_quantity_error">Enter item quantity</string>
+    <string name="item_saved_success">item saved succefully</string>
+    <string name="item_add_success">item added succefully</string>
+    <string name="ok_btn">OK</string>
+    <string name="reminder_dialog">Choose Reminding Date and Time</string>
+    <string name="done">Done</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="which_shop">Which Shop ?</string>
+    <string name="which_category">Which Category</string>
+    <string name="cat1">Category 1</string>
+    <string name="cat2">Category 2</string>
+    <string name="cat3">Category 3</string>
+    <string name="add_shop">Add Shop</string>
+    <string name="shop_nameerror">Enter shop name</string>
+    <string name="shop_address_error">Enter shop address</string>
+
+    <string name="email_error">Enter valid email</string>
+    <string name="check_ur_mail">check your e-mail to reset your password</string>
+    <string name="check_mail_error">something went wrong check connection or verify your e-mail</string>
+    <string name="something_wrong">something went wrong</string>
+    <string name="auth_error">Authentication error</string>
+    <string name="password_error">password 8 &#8211; 20 characters.</string>
+    <string name="permissions_denied">permissions denied</string>
+    <string name="reminder_deleted">reminder  deleted</string>
+    <string name="settings">Settings</string>
+    <string name="not_reminding">not reminding</string>
+    <string name="ok_btnn">OK</string>
+
+    <string name="password_match_error">Passwords dont match</string>
+    <string name="about_us_info">about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us</string>
+    <string name="shop_name_hint">shop name</string>
+    <string name="item_name_hint">item name</string>
+    <string name="quantity_hint">quantity</string>
+    <string name="category_hint">category</string>
+    <string name="date_hint">Date</string>
+    <string name="notes_hint">Notes</string>
+    <string name="add_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="remind_me_at">Remind me at :</string>
+    <string name="enter_shop_name_hint">Enter Shop Name</string>
+    <string name="enter_shop_location_hint">enter shop location</string>
+    <string name="get_location_on_map_hint">Get Location on Map</string>
+    <string name="reset_password_hint">Reset Password</string>
+    <string name="enter_your_e_mail_hint">Enter your E-Mail</string>
+    <string name="or">OR</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="dont_have_account">Dont have account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="skip">SKIP</string>
+    <string name="all_rights">All Rights reserved to AppsSquare</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm_your_password_hint">confirm your Password</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="from_shop">From shop</string>
+    <string name="shop_name">shop name</string>
+    <string name="will_be_reminded_at">will be reminded at :</string>
+    <string name="item_notes">item notes</string>
+    <string name="item_name">item name</string>
+    <string name="item_got">Item Got</string>
+    <string name="item_not_found">Item Not Found</string>
+    <string name="delete_reminder">Delete Reminder</string>
+    <string name="quantity_label">|| Quantity :</string>
+    <string name="notreminding">not reminding</string>
+    <string name="settings_change">changes will be applied next time application run</string>
+    <string name="language">Language :</string>
+    <string name="save_settings">Save</string>
+    <string name="signup_first">you have to sign up first</string>
+    <string name="reminder_notification">Dont forget your items :)</string>
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.appssquare.mahmoud.myshoppinglist.AddItemActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tooltipText="store name"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+        <requestFocus></requestFocus>
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:contentInsetStartWithNavigation="0dp"
+        android:layout_margin="0dp"
+        android:gravity="center_horizontal"
+        android:background="@color/toolbarbg"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/editTextShopName"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_round_corner"
+        android:drawableEnd="@drawable/down"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/cartsmall"
+        android:ems="10"
+        android:hint="@string/shop_name_hint"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <EditText
+        android:id="@+id/editTextitemname"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_round_corner"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/itemicon"
+        android:ems="10"
+        android:hint="@string/item_name_hint"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextShopName" />
+
+    <EditText
+        android:id="@+id/editTextquantity"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_round_corner"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/itemicon"
+        android:ems="10"
+        android:maxLength="8"
+        android:hint="@string/quantity_hint"
+        android:inputType="numberSigned|numberDecimal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextitemname" />
+
+    <EditText
+        android:id="@+id/editTextcategory"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_round_corner"
+        android:drawableEnd="@drawable/down"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/listsmall"
+        android:ems="10"
+        android:hint="@string/category_hint"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextquantity" />
+
+    <EditText
+        android:id="@+id/editTextdatetime"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_round_corner"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/itemicon"
+        android:ems="10"
+        android:hint="@string/date_hint"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextcategory" />
+
+    <EditText
+        android:id="@+id/editTextnotes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_round_corner"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/menuicon"
+        android:ems="10"
+        android:hint="@string/notes_hint"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:padding="5dp"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextdatetime" />
+
+
+    <Button
+        android:id="@+id/btnAdditem"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_green_round_corner"
+        android:text="@string/add_button"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancelitem"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextnotes" />
+
+    <Button
+        android:id="@+id/btnCancelitem"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_red_round_corner"
+        android:text="@string/cancel_button"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnAdditem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnAdditem" />
+
+    <CheckBox
+        android:id="@+id/checkBoxIsRemind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:textColor="@android:color/darker_gray"
+        android:checked="false"
+        android:padding="3dp"
+        android:text="@string/remind_me_at"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextdatetime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
