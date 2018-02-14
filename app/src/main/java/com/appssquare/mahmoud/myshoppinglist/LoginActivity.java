@@ -166,20 +166,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
 
     public void  printHASHKEY(){
-        try {
-            PackageInfo info = getPackageManager().getPackageInfo(
-                    "com.appssquare.mahmoud.myshoppinglist",
-                    PackageManager.GET_SIGNATURES);
-            for (Signature signature : info.signatures) {
-                MessageDigest md = MessageDigest.getInstance("SHA");
-                md.update(signature.toByteArray());
-                Log.e("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
-            }
-        } catch (PackageManager.NameNotFoundException e) {
-
-        } catch (NoSuchAlgorithmException e) {
-
-        }
+       
     }
 
     @Override
